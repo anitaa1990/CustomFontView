@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <com.an.customfontview.CustomTextView
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:textFontPath="fonts/gotham_bold.otf"
+        android:text="Works for any number of fonts" />
+
+
+    <com.an.customfontview.CustomTextView
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:textFontPath="fonts/circular_medium.otf"
+        android:text="What do you think?" />
+
+
+    <com.an.customfontview.CustomTextView
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:textFontPath="fonts/product_sans.ttf"
+        android:text="Pretty simple right?" />
+
+
+    <com.an.customfontview.CustomEditText
+        android:paddingBottom="10dp"
+        android:gravity="center"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:text="Works for edit text too!"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:editFontPath="fonts/product_sans.ttf" />
+
+
+    <com.an.customfontview.CustomButton
+        android:padding="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="40dp"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:btnFontPath="fonts/gt_medium.otf"
+        android:text="Works for me too!"/>
+
+</LinearLayout>

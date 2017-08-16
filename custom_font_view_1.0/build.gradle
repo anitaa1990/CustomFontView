@@ -1,0 +1,2 @@
+configurations.maybeCreate("default")
+artifacts.add("default", file('custom_font_view_1.0.aar'))
