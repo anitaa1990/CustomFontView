@@ -26,5 +26,5 @@ dependencies {
     })
     compile 'com.android.support:appcompat-v7:26.0.0-alpha1'
     testCompile 'junit:junit:4.12'
-    compile project(':custom_font_view_1.0')
+    compile 'com.an.customfontview:customfont:0.1.0'
 }

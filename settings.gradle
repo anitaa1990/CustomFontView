@@ -1,1 +1,1 @@
-include ':app', ':custom_font_view_1.0'
+include ':app'
